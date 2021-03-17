@@ -1,4 +1,70 @@
-@media (max-width: 576px){
+h1 {
+    text-align: center;
+    color: green;
+    border: 5px double lightskyblue;
+    padding: 5px;
+    border-radius: 2px;
+
+}
+
+h2 {
+    font-style: "Lobster script=latin rev=1";
+
+}
+
+h2:hover {
+    color: blue;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 1000px;
+    background: #F1F6F9;
+}
+
+p {
+    background: #F1F6F9;
+    text-shadow: 2px 2px 2px rgba(lightblue, 0.3);
+}
+
+button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 30px;
+    font-style: "Lobster script=latin rev=1";
+    font-size: 15px;
+    background: #A8DDA8;
+    border-color: green;
+
+
+}
+
+button:hover {
+    cursor: pointer;
+    transition: ease-in-out 200ms;
+    background: white;
+}
+
+.learn-more {
+    color: blue;
+    text-decoration: none;
+}
+
+.learn-more:hover {
+    text-decoration: underline;
+    transition: 200ms ease-in-out;
+}
+.container {
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+
+
+@media (max-width:576px){
     h1{
         font-size:20px;
 
@@ -15,7 +81,6 @@
     }
 
     p{
-
         font-size:12px;
     }
 
