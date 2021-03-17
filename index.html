@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Earthship Castle 🏰 </title>
+</head>
+<style>
+     h1 {
+         text-align:center;
+         color:green;
+         border:5px double lightskyblue;
+         padding: 5px;
+         border-radius:2px;
+
+     }
+
+     h2{
+         font-style:"Lobster script=latin rev=1";
+
+     }
+
+     h2:hover{
+         color: blue;
+     }
+
+     img{
+         display:block;
+         margin: 0 auto;
+         max-width: 1000px;
+         background:#F1F6F9;
+     }
+
+     p{
+         background:#F1F6F9;
+         text-shadow: 2px 2px 2px rgba(lightblue, 0.3);
+     }
+
+     button{
+         display: block;
+         margin:10px auto;
+         padding: 10px;
+         border-radius: 30px;
+         font-style:"Lobster script=latin rev=1";
+         font-size:15px;
+         background: #A8DDA8;
+         border-color:green;
+         
+         
+     }
+
+     button:hover{
+        cursor:pointer;
+        transition:ease-in-out 200ms;
+        background:white;
+     }
+
+     .learn-more{
+         color: blue;
+         text-decoration:none;
+     }
+
+     .learn-more:hover{
+         text-decoration:underline;
+         transition:200ms ease-in-out;
+     }
+     .container{
+         margin: 0 auto;
+         padding: 20px;
+     }
+
+</style>
+<body>
+    <div class="container">
+    <h1>
+        EarthShip Castle
+    </h1>
+    <h2>
+    <em>Autonomous houses that will not only help the environment but will 
+        reduce your bills!
+        </em>
+    </h2>
+    <p>
+    <img 
+    src ="https://i.pinimg.com/originals/9b/d8/e2/9bd8e2b609690842d96a69ce138d2e59.jpg"
+    />
+ </p>
+ <p>
+ <hr/>
+An Earthship is a brand of passive solar earth shelter that is made of both natural and upcycled materials such as earth-packed tires, pioneered by architect Michael Reynolds.
+
+Earthships are predicated upon the idea that there are six human needs which can be
+ addressed through environmentally sustainable building design:</br></br>
+ 
+ 
+<li>
+Energy: Thermal and/or solar heating and cooling, solar and wind electricity
+</li>
+<li>
+Garbage Management: Reuse and recycling built into construction and daily living
+</li>
+<li>
+Sewage Treatment: Self-contained sewage treatment and water recycling
+</li>
+<li>
+Shelter: Building with natural and recycled materials
+</li>
+<li>
+Clean Water: Water harvesting and long term storage
+</li>
+<li>
+Food: In-home organic food production capability
+</li>
+</br>
+Earthship structures are intended to be "off-the-grid-ready" homes, with minimal reliance on public utilities and fossil fuels. 
+They are constructed to use available natural resources, especially energy from the sun and rain water.
+ They are designed with thermal mass construction and natural cross-ventilation to regulate indoor temperature, and the designs are intentionally uncomplicated and mainly single-story, so that people with little building knowledge can construct them.For more information visit:
+    <a href= "https://earthshipbiotecture.com/" target ="_blank" class="learn-more" >
+    EarthShip Biotecture
+</a>
+
+    </p>
+    <button class="rent-earthship">
+        Rent an Earthship
+    </button>
+    </div>
+    <script>
+
+        function rent(){
+            let name = prompt("Hi! What is your name?");
+            let dates = prompt("Which days will you like to book?");
+            let place = prompt("Which earthship would you like?");
+
+            alert("Thank You" + " "+ name+ " " + "Enjoy Your Stay!✈" );
+        }
+        let rentEarthship = document.querySelector(".rent-earthship");
+        rentEarthship.addEventListener("click", rent);
+
+    </script>
+</body>
+</html>
